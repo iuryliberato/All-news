@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(41, 82, 105);
+  display: flex;
+  justify-content: center;
+
+}
+header {
+  margin: 15px 0;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.card{
+  background-color: white;
+  width: 1200px;
+  margin: 20px 0;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(246, 246, 246);
+
+}
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.images-card {
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  width: 380px;
+  object-fit: contain;
+ 
+}
+ button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 7px;
+  border: 0;
+  color: white;
+  background-color: rgb(41, 82, 105);
+  font-family: 'Inria Serif', serif;
+  font-size: 19px;
+  cursor: pointer;
+}
+h2{
+ font-size: 30px;
+ width: 700px;
+}
+.popUpInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
+  padding: 150px;
+  overflow: scroll;
+}
+.image {
+  width: 800px;
+}
+.summary {
+  width: 800px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.popUp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 350ms;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(179, 179, 179, 0.5);
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+  padding: 20px;
+
+}
+.popUp.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+a {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 7px;
+  border: 0;
+  color: white;
+  background-color: rgb(41, 82, 105);
+  font-family: 'Inria Serif', serif;
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  margin: 20px 0;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.close {
+  width: 390px;
+  padding: 15px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.search {
+ 
+  margin: 40px 0;
+}
+input {
+  width: 400px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+select {
+  width: 400px;
+  height: 40px;
+  margin: 40px 0;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color:rgb(41, 82, 105);
+  font-family: 'Inria Serif', serif;
+}
