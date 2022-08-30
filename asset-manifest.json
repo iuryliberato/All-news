@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/starter-project/static/css/main.90e4125e.css",
-    "main.js": "/starter-project/static/js/main.a1fd7731.js",
-    "static/media/logo.png": "/starter-project/static/media/logo.9d5fe72b78e313ec89db.png",
-    "index.html": "/starter-project/index.html",
-    "main.90e4125e.css.map": "/starter-project/static/css/main.90e4125e.css.map",
-    "main.a1fd7731.js.map": "/starter-project/static/js/main.a1fd7731.js.map"
+    "main.css": "/iuryliberato/All-news.git/static/css/main.90e4125e.css",
+    "main.js": "/iuryliberato/All-news.git/static/js/main.ad6a4eff.js",
+    "static/media/logo.png": "/iuryliberato/All-news.git/static/media/logo.9d5fe72b78e313ec89db.png",
+    "index.html": "/iuryliberato/All-news.git/index.html",
+    "main.90e4125e.css.map": "/iuryliberato/All-news.git/static/css/main.90e4125e.css.map",
+    "main.ad6a4eff.js.map": "/iuryliberato/All-news.git/static/js/main.ad6a4eff.js.map"
   },
   "entrypoints": [
     "static/css/main.90e4125e.css",
-    "static/js/main.a1fd7731.js"
+    "static/js/main.ad6a4eff.js"
   ]
 }
