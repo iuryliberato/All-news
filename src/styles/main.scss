@@ -16,6 +16,7 @@ header {
 .card{
   background-color: white;
   width: 1200px;
+  height: 300px;
   margin: 20px 0;
   display: flex;
   border-radius: 20px;
@@ -34,13 +35,22 @@ header {
   justify-content: center;
   
 }
+.load-more-bt {
+  display: flex;
+  justify-content: center;
+ margin: 40px 0;
+}
+
 
 .images-card {
   height: 100%;
   border-radius: 20px 0 0 20px;
   width: 380px;
   object-fit: contain;
- 
+}
+h3 {
+  font-size: 30px;
+  color: white;
 }
  button {
   width: 200px;
@@ -149,4 +159,10 @@ select {
   border-radius: 5px;
   color:rgb(41, 82, 105);
   font-family: 'Inria Serif', serif;
+}
+.load-more {
+  background-color: rgba(255, 255, 255, 0.675);
+  color: rgb(82, 82, 82);
+  display: flex;
+  justify-content: center;
 }
